@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:music_player/Pages/SongPage.dart';
+import 'package:music_player/Pages/SplashScreen.dart';
 import 'package:music_player/config/Theme.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Music Player',
       theme: darkTheme,
-      home: const SongPage(),
+      home: const SplashScreen(),
     );
   }
 }
